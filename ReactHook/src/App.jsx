@@ -6,6 +6,7 @@ import { useState } from "react";
 import Color from "./Color";
 import Counter from "./Counter";
 import Name from "./Name";
+import { useEffect } from "react";
 const App=()=>{
   const [city ,setCity]=useState("");
   const display=()=>{
@@ -20,6 +21,7 @@ const App=()=>{
     <Color />
     <Counter/>
     <Name/>
+    <useEffe/>
     </>
   )
 }
