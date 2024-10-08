@@ -21,7 +21,7 @@ const App=()=>{
     <Color />
     <Counter/>
     <Name/>
-    <useEffe/>
+    <useEffect/>
     </>
   )
 }
