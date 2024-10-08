@@ -1,0 +1,53 @@
+{
+    "employees": [
+      {
+        "employeeno": "101",
+        "name": "Gauri Dahake",
+        "city": "Jabalpur",
+        "salary": "55000",
+        "id": "2"
+      },
+      {
+        "id": "3",
+        "employeeno": 103,
+        "name": "Nazneen",
+        "salary": 80000,
+        "city": "Bhopal"
+      },
+      {
+        "id": "4",
+        "employeeno": 104,
+        "name": "Sharad",
+        "salary": 85000,
+        "city": "Riva"
+      },
+      {
+        "employeeno": "105",
+        "name": "Ashfak",
+        "city": "Maharashta",
+        "salary": "8500000",
+        "id": "5"
+      },
+      {
+        "employeeno": "107",
+        "name": "Addity Tawani",
+        "city": "indor",
+        "salary": "70000",
+        "id": "6"
+      },
+      {
+        "employeeno": "108",
+        "name": "Ankita bobde",
+        "city": "Nasik ",
+        "salary": "40000",
+        "id": "7"
+      },
+      {
+        "id": "64e3",
+        "employeeno": "17",
+        "name": "namu",
+        "city": "bhopal",
+        "salary": "1234333"
+      }
+    ]
+  }
