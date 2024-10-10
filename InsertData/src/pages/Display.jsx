@@ -1,4 +1,4 @@
-const { useState, useEffect } = from("react")
+import { useEffect,useState } from "react";
 
 const Display=()=>{
     const [empdata, setEmpdata]=useState([]);
