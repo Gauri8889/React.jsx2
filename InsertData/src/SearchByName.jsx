@@ -4,7 +4,7 @@ const Search=()=>{
     const [eno, setEno]=useState("");
     const [mydata, setMydata]=useState([]);
     const handleSubmit=()=>{
-        let api=`http://localhost:3000/employees/?empno=${eno}`
+        let api=`http://localhost:3000/employees/?empno=${eno}`;
         axios.get(api).then((res)=>{
             setMydata(res.data);
             console.log(res.data);

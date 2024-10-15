@@ -1,22 +1,23 @@
 import axios from "axios";
 import { useState } from "react";
-//import { ToastContainer, toast } from 'react-toastify';
-//import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Insert=()=>{
     const [input, setInput]=useState({});
     const handleInput=(e)=>{
-        let name=e.target.name;
+        let name =e.target.name;
         let value=e.target.value;
-        setInput(values=>({...values, [name]:value}));
+        setInput(values=>({...values,[name]:value}));
         console.log(input);
     }
-   const handleSubmit=()=>{
-    let api="http://localhost:3000/employees";
-    axios.post(api, input).then((res)=>{
-        console.log(res);
-        //toast.success("Data Successfully Save!!!")
-    })
-   }
+    const handleSubmit=()=>{
+        let api="http://localhost:3000/employees";
+        axios.post(api,input).than((res)=>{
+            console.log(res);
+           toast.success("Data Succesfully Save!");
+        })
+    }
+
     return(
         <>
          <h1> Insert Record</h1>
@@ -33,7 +34,7 @@ const Insert=()=>{
          onChange={handleInput} />
          <br/>
          <button onClick={handleSubmit}>Save!!!</button>
-        
+         
         </>
     )
 }

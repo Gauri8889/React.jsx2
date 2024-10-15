@@ -21,9 +21,10 @@ const Display=()=>{
         <>
           <tr>
             <td> {key.empno} </td>
-            <td> {key.name} </td>
+            <td> {key.empname} </td>
             <td> {key.email} </td>
             <td> {key.contact} </td>
+            <td> {key.salary} </td>
           </tr>
         </>
     )
@@ -37,6 +38,7 @@ const Display=()=>{
                 <th> Name</th>
                 <th> Email</th>
                 <th> Contact no.</th>
+                <th> Salary</th>
             </tr>
             {ans}
          </table>

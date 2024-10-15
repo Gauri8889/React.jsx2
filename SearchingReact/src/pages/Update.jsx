@@ -38,9 +38,10 @@ const myEdit=(id)=>{
         <>
           <tr>
             <td> {key.empno} </td>
-            <td> {key.name} </td>
+            <td> {key.empname} </td>
             <td> {key.email} </td>
             <td> {key.contact} </td>
+            <td> {key.salary} </td>
             <td>
 
                 <a href="#" onClick={()=>{myEdit(key.id)}}>
@@ -66,7 +67,9 @@ const myEdit=(id)=>{
                 <th> Name</th>
                 <th>Email</th>
                 <th> Contact</th>
-                <th> </th>
+                <th> Salary</th>
+                <th> Edit/Delete</th>
+                
             </tr>
             {ans}
           </table>

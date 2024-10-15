@@ -14,9 +14,10 @@ const Search=()=>{
           return(
             <>
               <h1> Employee Numbe: {key.empno}</h1>
-              <h2> Name : {key.name} </h2>
+              <h2> Name : {key.empname} </h2>
               <h2> Email: {key.email} </h2>
               <h2> Contact no: {key.contact}</h2>
+              <h2> Salary: {key.salary}</h2>
             </>
           )
     })
