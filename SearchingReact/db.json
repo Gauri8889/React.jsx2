@@ -1,14 +1,6 @@
 {
   "employees": [
     {
-      "id": "1",
-      "empno": 1001,
-      "empname": "Shumayla khan",
-      "email": " shumayla123@gmail.com",
-      "contact": 875423691,
-      "salary": 30000
-    },
-    {
       "id": "2",
       "empno": 1002,
       "empname": "Aanurag sahu",
