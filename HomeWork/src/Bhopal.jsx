@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { myContext } from "./App";
 
 const Bhopal=()=>{
-    const { user, setUser } = myContext(myContext);
+    const { user, setUser } = useContext(myContext);
     return(
         <>
         <h1> Welcome to Bhopal : Name : {user}</h1>
