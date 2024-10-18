@@ -1,11 +1,8 @@
-
-
 const Comp5=({user})=>{
     return(
-        <>
-        <h1>Component-1 welcome to the {user}</h1>
-  
-        </>
+      <>
+      <h1>comp 4: welcom : {user}</h1>
+      </>
     )
-}
-export default Comp5;
+  }
+  export default Comp5;

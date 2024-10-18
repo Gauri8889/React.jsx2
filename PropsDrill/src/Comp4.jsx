@@ -1,11 +1,10 @@
 import Comp5 from "./Comp5";
-
 const Comp4=({user})=>{
     return(
-        <>
-        <h1>Component-1</h1>
-        <Comp4 user={user}/>
-        </>
+      <>
+      <h1>comp 4</h1>
+      <Comp5 user={user}/>     
+       </>
     )
-}
-export default Comp4;
+  }
+  export default Comp4;

@@ -1,11 +1,10 @@
-import Comp3 from "./Comp3";
-
+import Comp3 from "./comp3";
 const Comp2=({user})=>{
     return(
-        <>
-        <h1>Component-1</h1>
-        <Comp3 user={user}/>
-        </>
+      <>
+      <h1>comp 2</h1>
+      <Comp3 user={user}/>
+      </>
     )
-}
-export default Comp2;
+  }
+  export default Comp2;

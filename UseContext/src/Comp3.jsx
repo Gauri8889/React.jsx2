@@ -1,11 +1,11 @@
 // import { useContext } from "react";
-import Comp2 from "./Comp2";
-const Comp1=()=>{
+import Comp4 from "./Comp4";
+const Comp3=()=>{
     const {user}= useContext(myContext);
     return(
         <>
-        <h1>Component-1 : Welcome : {user} </h1>
+        <h1>Component-4 : Welcome : {user} </h1>
         </>
     )
 }
-export default Comp1;
+export default Comp3;
